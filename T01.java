@@ -15,14 +15,13 @@ public class T01 {
         iSBN = input.nextLine();
         jUDUL = input.nextLine();
         pENULIS = input.nextLine();
+        tAHUNTERBIT = Integer.parseInt(input.nextLine());
         pENERBIT = input.nextLine();
         fORMAT = input.nextLine();
-        tAHUNTERBIT = Integer.parseInt(input.nextLine());
-        sTOK = Integer.parseInt(input.nextLine());
         hARGA = Double.parseDouble(input.nextLine());
         mINIMUMMARGIN = Double.parseDouble(input.nextLine());
+        sTOK = Integer.parseInt(input.nextLine());
         rATING = Double.parseDouble(input.nextLine());
-        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + pENERBIT + "|" + fORMAT + "|" + tAHUNTERBIT + "|" + sTOK + "|" + hARGA + "|" + mINIMUMMARGIN + "|" + rATING);
+        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMAT + "|" + hARGA + "|" + mINIMUMMARGIN + "|" + sTOK + "|" + rATING);
     }
 }
-
