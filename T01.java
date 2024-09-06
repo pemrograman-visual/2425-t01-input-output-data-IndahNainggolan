@@ -25,3 +25,4 @@ public class T01 {
         System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + pENERBIT + "|" + fORMAT + "|" + tAHUNTERBIT + "|" + sTOK + "|" + hARGA + "|" + mINIMUMMARGIN + "|" + rATING);
     }
 }
+
