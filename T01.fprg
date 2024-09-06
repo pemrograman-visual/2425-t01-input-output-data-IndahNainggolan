@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:32:39 AM"/>
+        <attribute name="created" value="VVNFUjtMQVBUT1AtNVRBNjA4VTE7MjAyNC0wOS0wNjsxMDowODo0NCBBTTsyNTkx"/>
+        <attribute name="edited" value="VVNFUjtMQVBUT1AtNVRBNjA4VTE7MjAyNC0wOS0wNjsxMTozMjozOSBBTTsxOzI3MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN, JUDUL, PENULIS, PENERBIT, FORMAT" type="String" array="False" size=""/>
+            <declare name="TAHUNTERBIT, STOK" type="Integer" array="False" size=""/>
+            <declare name="HARGA, MINIMUMMARGIN, RATING" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="JUDUL"/>
+            <input variable="PENULIS"/>
+            <input variable="PENERBIT"/>
+            <input variable="FORMAT"/>
+            <input variable="TAHUNTERBIT"/>
+            <input variable="STOK"/>
+            <input variable="HARGA"/>
+            <input variable="MINIMUMMARGIN"/>
+            <input variable="RATING"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FORMAT&amp;&quot;|&quot;&amp;TAHUNTERBIT&amp;&quot;|&quot;&amp;STOK&amp;&quot;|&quot;&amp;HARGA&amp;&quot;|&quot;&amp;MINIMUMMARGIN&amp;&quot;|&quot;&amp;RATING" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
